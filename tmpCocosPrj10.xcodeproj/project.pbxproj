@@ -184,6 +184,12 @@
 		1894CB8516B5560400D5078E /* IntroLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1894CB8416B5560400D5078E /* IntroLayer.mm */; };
 		1894CB8816B5560500D5078E /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1894CB8716B5560500D5078E /* GLES-Render.mm */; };
 		1894CB8A16B5560500D5078E /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894CB8916B5560500D5078E /* blocks.png */; };
+		1894CB9216B5572F00D5078E /* MyScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1894CB9116B5572F00D5078E /* MyScene.mm */; };
+		1894CB9516B5576400D5078E /* MyLayer1.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1894CB9416B5576400D5078E /* MyLayer1.mm */; };
+		1894CB9816B5577700D5078E /* MyLayer2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1894CB9716B5577700D5078E /* MyLayer2.mm */; };
+		1894CB9B16B55B2600D5078E /* bfrontLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894CB9916B55B2500D5078E /* bfrontLeft.png */; };
+		1894CB9C16B55B2600D5078E /* bfrontRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894CB9A16B55B2500D5078E /* bfrontRight.png */; };
+		1894CB9E16B55CA700D5078E /* Default2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894CB9D16B55CA700D5078E /* Default2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -557,6 +563,15 @@
 		1894CB8616B5560400D5078E /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		1894CB8716B5560500D5078E /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		1894CB8916B5560500D5078E /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		1894CB9016B5572F00D5078E /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScene.h; path = tmpCocosPrj10/MyScene.h; sourceTree = "<group>"; };
+		1894CB9116B5572F00D5078E /* MyScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MyScene.mm; path = tmpCocosPrj10/MyScene.mm; sourceTree = "<group>"; };
+		1894CB9316B5576400D5078E /* MyLayer1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLayer1.h; path = tmpCocosPrj10/MyLayer1.h; sourceTree = "<group>"; };
+		1894CB9416B5576400D5078E /* MyLayer1.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MyLayer1.mm; path = tmpCocosPrj10/MyLayer1.mm; sourceTree = "<group>"; };
+		1894CB9616B5577700D5078E /* MyLayer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLayer2.h; path = tmpCocosPrj10/MyLayer2.h; sourceTree = "<group>"; };
+		1894CB9716B5577700D5078E /* MyLayer2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MyLayer2.mm; path = tmpCocosPrj10/MyLayer2.mm; sourceTree = "<group>"; };
+		1894CB9916B55B2500D5078E /* bfrontLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bfrontLeft.png; sourceTree = "<group>"; };
+		1894CB9A16B55B2500D5078E /* bfrontRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bfrontRight.png; sourceTree = "<group>"; };
+		1894CB9D16B55CA700D5078E /* Default2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default2.png; path = Resources/Default2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -582,6 +597,12 @@
 		1894C94216B555FD00D5078E = {
 			isa = PBXGroup;
 			children = (
+				1894CB9616B5577700D5078E /* MyLayer2.h */,
+				1894CB9716B5577700D5078E /* MyLayer2.mm */,
+				1894CB9316B5576400D5078E /* MyLayer1.h */,
+				1894CB9416B5576400D5078E /* MyLayer1.mm */,
+				1894CB9016B5572F00D5078E /* MyScene.h */,
+				1894CB9116B5572F00D5078E /* MyScene.mm */,
 				1894C96316B555FD00D5078E /* tmpCocosPrj10 */,
 				1894C95016B555FD00D5078E /* Frameworks */,
 				1894C94E16B555FD00D5078E /* Products */,
@@ -633,6 +654,9 @@
 		1894C96416B555FD00D5078E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1894CB9D16B55CA700D5078E /* Default2.png */,
+				1894CB9916B55B2500D5078E /* bfrontLeft.png */,
+				1894CB9A16B55B2500D5078E /* bfrontRight.png */,
 				1894C96516B555FD00D5078E /* Default.png */,
 				1894C96716B555FD00D5078E /* Default@2x.png */,
 				1894C96916B555FD00D5078E /* Default-568h@2x.png */,
@@ -1227,6 +1251,9 @@
 				1894C97B16B555FD00D5078E /* iTunesArtwork in Resources */,
 				1894CACA16B5560200D5078E /* ChangeLog in Resources */,
 				1894CB8A16B5560500D5078E /* blocks.png in Resources */,
+				1894CB9B16B55B2600D5078E /* bfrontLeft.png in Resources */,
+				1894CB9C16B55B2600D5078E /* bfrontRight.png in Resources */,
+				1894CB9E16B55CA700D5078E /* Default2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1392,6 +1419,9 @@
 				1894CB8216B5560400D5078E /* HelloWorldLayer.mm in Sources */,
 				1894CB8516B5560400D5078E /* IntroLayer.mm in Sources */,
 				1894CB8816B5560500D5078E /* GLES-Render.mm in Sources */,
+				1894CB9216B5572F00D5078E /* MyScene.mm in Sources */,
+				1894CB9516B5576400D5078E /* MyLayer1.mm in Sources */,
+				1894CB9816B5577700D5078E /* MyLayer2.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,6 +1432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ARTEM BARANOV (DUNEL8BUSA)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1414,6 +1445,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "1D9AB6AC-E27E-4AC9-BF96-F9E370D9394E";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1423,6 +1455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ARTEM BARANOV (DUNEL8BUSA)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1433,6 +1466,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "1D9AB6AC-E27E-4AC9-BF96-F9E370D9394E";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
